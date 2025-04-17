@@ -21,4 +21,5 @@
 📌 User Guidance: Onboarding welcome dialog provides users with usage instructions and app overview.
 
 Created by Gaurav Katre
-\n Contact - gauravkatre0329@gmail.com
+
+Contact - gauravkatre0329@gmail.com
