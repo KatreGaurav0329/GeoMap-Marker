@@ -1,0 +1,74 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_marker_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marker Name"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_marker_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_marker_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black" />
+
+    <!-- Buttons Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="12dp">
+
+        <Button
+            android:id="@+id/btn_edit_marker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit"
+            android:backgroundTint="@color/colorPrimary"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btn_delete_marker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:layout_marginStart="8dp"
+            android:textColor="@android:color/holo_red_light"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_navigate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Navigate to Marker"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_share"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Share Marker Details"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
